@@ -1,0 +1,37 @@
+.Logo {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.Navbar {
+    display: flex;
+    padding: 20px 60px 20px 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    background-color: #111111;
+    border-bottom: 1px solid #4c4c4c
+}
+
+.NavbarItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 5rem;
+}
+
+.NavbarLink {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #e6e6e6;
+}
+
+.NavbarLink:hover {
+    border-bottom: 1px solid #8DBFD6;
+}

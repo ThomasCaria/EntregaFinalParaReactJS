@@ -1,0 +1,18 @@
+.divHome {
+    background-image: url('./home.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1Home {
+    font-size: 165px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    text-align: end;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
